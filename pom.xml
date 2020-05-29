@@ -32,6 +32,11 @@
             <name>Maven2 Snapshot Repository</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
+        <repository>
+            <id>local</id>
+            <name>Local</name>
+            <url>file://${basedir}/.mvn/repo</url>
+        </repository>
     </repositories>
 
     <dependencies>
